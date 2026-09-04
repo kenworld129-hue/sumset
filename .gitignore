@@ -1,0 +1,17 @@
+# ビルド成果物（Maven / Cargo 共通）
+target/
+
+# 秘密情報（.env.example だけは共有する）
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDE / エディタ
+.idea/
+*.iml
+.vscode/
+.zed/
+
